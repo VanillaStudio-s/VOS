@@ -7,7 +7,7 @@
 void push_key_event(unsigned char sc);
 int  get_key_event(unsigned char* sc);
 
-/* ---- Tastatur-Layout (physische Belegung: US, DE, FR, ...) ---- */
+/* ---- Tastatur-Layout (physische Belegung: US, DE, FR, ...) ----- */
 extern int current_layout;
 
 void keyboard_lang_selector(int lang);
